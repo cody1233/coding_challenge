@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#This script takes a VCF file as input to annotate it with information from the ExAC database
-#Usage: Bash vcf_annotation.sh <INPUT VCF FILE>
-#Check if VCF file is provided
+#This script takes a VCF file as input to annotate it with information from the ExAC database with ANNOVAR
+#Usage: bash vcf_annotation.sh <INPUT VCF FILE>
 vcf=$1
+
+#Check if VCF file is provided
 
 if [ $# -eq 0 ]
   then
