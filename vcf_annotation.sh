@@ -33,4 +33,4 @@ rm exac_header.txt
 rm vcf_information.txt
 rm header.txt
 rm annovar.avinput
-
+rm annotation.hg19_multianno.txt
